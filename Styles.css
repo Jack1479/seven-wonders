@@ -4,61 +4,84 @@ body{
 
 
 }
-a.wall,a:visited{
-    background-color:red;
-    color:black;
-    padding:15px 25px ;
-    text-align:center
-    
+a.wall{
+    background-color:black;
+    color:white;
+    padding:25px 35px ;
+    text-align:center;
+    margin: 10px;
+    border: 1px;
+    border-radius:15px;
+    font-weight:bold;
 }
 
-a.redeemer,a:visited{
-    background-color:red;
-    color:black;
-    padding:15px 25px ;
-    text-align:center
-    
+a.redeemer{
+    background-color:black;
+    color:white;
+    padding:25px 35px ;
+    text-align:center;
+    margin: 10px;
+    border: 1px;
+    border-radius:15px;
+    font-weight:bold;
 }
-a.petra,a:visited{
-    background-color:red;
-    color:black;
-    padding:15px 25px ;
-    text-align:center
-    
+a.petra{
+    background-color:black;
+    color:white;
+    padding:25px 35px ;
+    text-align:center;
+    margin: 5px;
+    border: 1px;
+    border-radius:15px;
+    font-weight:bold;
 }
 a.colo,a:visited{
-    background-color:red;
-    color:black;
-    padding:15px 25px ;
-    text-align:center
+    background-color:black;
+    color:white;
+    padding:25px 35px ;
+    text-align:center;
+    margin: 10px;
+    border: 1px;
+    border-radius:15px;
+    font-weight:bold;
     
 }
 a.itza,a:visited{
-    background-color:red;
-    color:black;
-    padding:15px 25px ;
-    text-align:center
-    
+    background-color:black;
+    color:white;
+    padding:25px 35px ;
+    text-align:center;
+    margin: 10px;
+    border: 1px;
+    border-radius:15px;
+    font-weight:bold;
 }
 
 a.mahal,a:visited{
-    background-color:red;
-    color:black;
-    padding:15px 25px ;
-    text-align:center
-    
+    background-color:black;
+    color:white;
+    padding:25px 35px ;
+    text-align:center;
+    margin: 10px;
+    border: 1px;
+    border-radius:15px;
+    font-weight:bold;
 }
 
 a.picchu,a:visited{
-    background-color:red;
-    color:black;
-    padding:15px 25px ;
-    text-align:center
+    background-color:black;
+    color:white;
+    padding:25px 35px ;
+    text-align:center;
+    margin: 10px;
+    border: 1px;
+    border-radius:15px;
+    font-weight:bold;
 }
 
 div.header{
-    Background-color:blue;
-    padding:20px 5px;
+    background-color:aquamarine;
+    padding:50px 20px;
     width:100%;
     position:relative;
     left: -10px;
@@ -67,11 +90,9 @@ div.header{
 div.links{
     text-align: center;
     position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
 }
-
-
-
-
 
 
 
