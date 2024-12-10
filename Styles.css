@@ -1,0 +1,77 @@
+
+body{
+
+
+
+}
+a.wall,a:visited{
+    background-color:red;
+    color:black;
+    padding:15px 25px ;
+    text-align:center
+    
+}
+
+a.redeemer,a:visited{
+    background-color:red;
+    color:black;
+    padding:15px 25px ;
+    text-align:center
+    
+}
+a.petra,a:visited{
+    background-color:red;
+    color:black;
+    padding:15px 25px ;
+    text-align:center
+    
+}
+a.colo,a:visited{
+    background-color:red;
+    color:black;
+    padding:15px 25px ;
+    text-align:center
+    
+}
+a.itza,a:visited{
+    background-color:red;
+    color:black;
+    padding:15px 25px ;
+    text-align:center
+    
+}
+
+a.mahal,a:visited{
+    background-color:red;
+    color:black;
+    padding:15px 25px ;
+    text-align:center
+    
+}
+
+a.picchu,a:visited{
+    background-color:red;
+    color:black;
+    padding:15px 25px ;
+    text-align:center
+}
+
+div.header{
+    Background-color:blue;
+    padding:20px 5px;
+    width:100%;
+    position:relative;
+    left: -10px;
+    
+}
+div.links{
+    text-align: center;
+    position: relative;
+}
+
+
+
+
+
+
+
