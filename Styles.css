@@ -1,6 +1,6 @@
 
 body{
-
+    overflow-x: hidden;
 
 
 }
@@ -81,18 +81,22 @@ a.picchu,a:visited{
 
 div.header{
     background-color:aquamarine;
-    padding:50px 20px;
+    padding:10px;
     width:100%;
     position:relative;
     left: -10px;
+    top: -10px;
     
 }
 div.links{
+    width: 100%;
     text-align: center;
     position: relative;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto;
 }
 
-
+img {
+    width: 100%;
+}
 
