@@ -4,7 +4,7 @@ body{
 
 
 }
-a.wall{
+a {
     background-color:black;
     color:white;
     padding:25px 35px ;
@@ -13,70 +13,7 @@ a.wall{
     border: 1px;
     border-radius:15px;
     font-weight:bold;
-}
-
-a.redeemer{
-    background-color:black;
-    color:white;
-    padding:25px 35px ;
-    text-align:center;
-    margin: 10px;
-    border: 1px;
-    border-radius:15px;
-    font-weight:bold;
-}
-a.petra{
-    background-color:black;
-    color:white;
-    padding:25px 35px ;
-    text-align:center;
-    margin: 5px;
-    border: 1px;
-    border-radius:15px;
-    font-weight:bold;
-}
-a.colo,a:visited{
-    background-color:black;
-    color:white;
-    padding:25px 35px ;
-    text-align:center;
-    margin: 10px;
-    border: 1px;
-    border-radius:15px;
-    font-weight:bold;
-    
-}
-a.itza,a:visited{
-    background-color:black;
-    color:white;
-    padding:25px 35px ;
-    text-align:center;
-    margin: 10px;
-    border: 1px;
-    border-radius:15px;
-    font-weight:bold;
-}
-
-a.mahal,a:visited{
-    background-color:black;
-    color:white;
-    padding:25px 35px ;
-    text-align:center;
-    margin: 10px;
-    border: 1px;
-    border-radius:15px;
-    font-weight:bold;
-}
-
-a.picchu,a:visited{
-    background-color:black;
-    color:white;
-    padding:25px 35px ;
-    text-align:center;
-    margin: 10px;
-    border: 1px;
-    border-radius:15px;
-    font-weight:bold;
+    text-decoration: none;
 }
 
 div.header{
@@ -100,3 +37,26 @@ img {
     width: 100%;
 }
 
+div#content {
+    padding-top: 50px;
+}
+
+div#form-grid {
+    display: grid;
+    grid-template-columns: 100px auto;
+    width: 50%;
+}
+
+#submit{
+    width: 50%;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    transition-duration: .2s;
+    height: 30px;
+}
+
+#submit:hover {
+    opacity: .6;
+    cursor: pointer;
+}
