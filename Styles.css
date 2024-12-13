@@ -62,3 +62,7 @@ div#form-grid {
     cursor: pointer;
 }
 
+div.head {
+    background-color: aquamarine;
+    text-align: center;
+}
