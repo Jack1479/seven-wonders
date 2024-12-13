@@ -65,4 +65,6 @@ div#form-grid {
 div.head {
     background-color: aquamarine;
     text-align: center;
+    height: 10%;
+    font-size: 250%;
 }
