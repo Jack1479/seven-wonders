@@ -5,7 +5,7 @@ body{
 
 }
 a {
-    background-color:black;
+    background-color:rgb(7, 16, 189);
     color:white;
     padding:25px 35px ;
     text-align:center;
@@ -17,7 +17,7 @@ a {
 }
 
 div.header{
-    background-color:aquamarine;
+    background-color:lightskyblue;
     padding:10px;
     width:100%;
     position:relative;
@@ -50,7 +50,7 @@ div#form-grid {
 
 #submit{
     width: 50%;
-    background-color: aquamarine;
+    background-color:lightskyblue;
     border: none;
     border-radius: 10px;
     transition-duration: .2s;
@@ -63,7 +63,7 @@ div#form-grid {
 }
 
 div.head {
-    background-color: aquamarine;
+    background-color:lightskyblue;
     text-align: center;
     height: 10%;
     font-size: 250%;
